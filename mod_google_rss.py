@@ -11,9 +11,9 @@ def get_connection():
     try:
         connection = pymysql.connect(
         user="root",
-        password="Thermodynamics@1",
+        password="",
         host="localhost",    
-        database="stocks", 
+        database="", 
         )
         
         print("Connection to MySQL database was successful")
